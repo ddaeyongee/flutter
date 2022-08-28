@@ -1,3 +1,17 @@
+
+
+* Windows용 패키지 관리자 Chocolatey(choco) 설치 및 이용하기
+cmd 관리자권한 열기 >> 
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+
+
+
+
+
+
+
+
 <a href="https://flutter.dev/">
   <h1 align="center">
     <picture>
